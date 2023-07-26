@@ -14,6 +14,8 @@ Config = {
     --slow_percent can be 0 - 99.
     --hard coded to not go below 0.01 move speed.
     --Change these to the values that suit you.
+--approximately 500000 is 1kg in ox_inventory 
+
     weight_effects = {
         {weight = 2000, slow_percent = 60},
         {weight = 10000, slow_percent = 25},
